@@ -15,7 +15,7 @@ M.S. Student, Data Science & Machine Learning
 Research Assistant, [Existential Robotics Laboratory](https://existentialrobotics.org/)  
 [University of California San Diego](https://ucsd.edu/)
 
-Email: huang.stephen05 at gmail.com
+Email: huang.stephen05@gmail.com
 
 [LinkedIn](https://www.linkedin.com/in/stephenhuangg) &middot; [GitHub](https://github.com/SHuang369)
 
@@ -23,7 +23,7 @@ Email: huang.stephen05 at gmail.com
 
 ## Biography
 
-I am an M.S. student in Data Science & Machine Learning at the [University of California San Diego](https://ucsd.edu/) (expected June 2028), and a Research Assistant in the [Existential Robotics Laboratory](https://existentialrobotics.org/). I received my B.S. in Computer Engineering with a minor in Mathematics from UCSD in 2026, completing the degree in two years with a 3.83 GPA. I am a member of Phi Beta Kappa and received Provost Honors every quarter at UCSD.
+I am an M.S. student in Data Science & Machine Learning at the [University of California San Diego](https://ucsd.edu/) (expected June 2028), and a Research Assistant in the [Existential Robotics Laboratory](https://existentialrobotics.org/). I received my B.S. in Computer Engineering with a minor in Mathematics from UCSD in 2026, completing the degree in two years with a 3.83 GPA.
 
 Previously, I was a Software Engineer Intern at [Qualcomm Institute](https://qi.ucsd.edu/), working on retrieval-augmented AI systems and sensor-to-inference pipelines. I also served as Event Director for [ACM AI at UCSD](https://ai.acmucsd.com/), leading 18 AI/ML workshops and events for 100+ students.
 
