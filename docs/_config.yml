@@ -1,0 +1,22 @@
+title: Stephen Huang
+author: Stephen Huang
+description: M.S. Data Science & Machine Learning, UC San Diego
+url: "https://stephuang.dev"
+baseurl: ""
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Never publish personal documents kept in this folder.
+exclude:
+  - "*.pdf"
+  - professional_headshot.png
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .jekyll-cache

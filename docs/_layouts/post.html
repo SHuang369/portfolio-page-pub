@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<p class="text-grey-dk-000"><em>{{ page.date | date: "%B %-d, %Y" }}</em></p>
+
+{{ content }}
+
+<p><a href="{{ '/blog/' | relative_url }}">&larr; Back to blog</a></p>

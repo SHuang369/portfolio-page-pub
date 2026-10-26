@@ -1,0 +1,275 @@
+/* Based on the default jemdoc stylesheet (jemdoc.jaboc.net). */
+
+body {
+	background: white;
+	font-family: Georgia, serif;
+	padding-bottom: 8px;
+	margin: 0;
+}
+
+/* Two columns: menu on the left, content filling the rest of the page. */
+#tlayout {
+	display: flex;
+	align-items: stretch;
+	min-height: 100vh;
+	margin: 2px;
+}
+
+#layout-menu {
+	flex: 0 0 auto;
+	background: #f6f6f6;
+	border: 1px solid #dddddd;
+	padding-top: 0.5em;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 1.2em;
+	white-space: nowrap;
+	text-align: left;
+}
+
+#layout-content {
+	flex: 1 1 auto;
+	min-width: 0;
+	padding-top: 0.0em;
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+	background: white;
+	text-align: left;
+}
+
+#layout-menu a {
+	line-height: 1.5em;
+	margin-left: 0.5em;
+}
+
+tt, code {
+	background: #ffffdd;
+}
+
+pre, tt, code {
+	font-size: 90%;
+	font-family: monaco, monospace;
+}
+
+a, a > tt {
+	color: #224b8d;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px gray dotted;
+}
+
+#layout-menu a.current:link, #layout-menu a.current:visited {
+	color: #022b6d;
+	border-bottom: 1px gray solid;
+}
+#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
+	color: #527bbd;
+	text-decoration: none;
+}
+#layout-menu a:hover {
+	text-decoration: none;
+}
+
+div.menu-category {
+	border-bottom: 1px solid gray;
+	margin-top: 0.8em;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
+	font-weight: bold;
+}
+
+div.menu-item {
+	padding-left: 16px;
+	text-indent: -16px;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+h1, h2, h3 {
+	color: #527bbd;
+	margin-top: 0.7em;
+	margin-bottom: 0.3em;
+	padding-bottom: 0.2em;
+	line-height: 1.0;
+	padding-top: 0.5em;
+	border-bottom: 1px solid #aaaaaa;
+}
+
+h1 {
+	font-size: 165%;
+}
+
+h2 {
+	padding-top: 0.8em;
+	font-size: 125%;
+}
+
+h2 + h3 {
+	padding-top: 0.2em;
+}
+
+h3 {
+	font-size: 110%;
+	border-bottom: none;
+}
+
+#layout-content > h1:first-child {
+	margin-top: 0.3em;
+}
+
+p {
+	margin-top: 0.0em;
+	margin-bottom: 0.8em;
+	padding: 0;
+	line-height: 1.3;
+}
+
+pre {
+	padding: 0;
+	margin: 0;
+}
+
+div#footer {
+	font-size: small;
+	border-top: 1px solid #c0c0c0;
+	padding-top: 0.1em;
+	margin-top: 4.0em;
+	color: #c0c0c0;
+}
+
+div#footer a {
+	color: #80a0b0;
+}
+
+div#footer-text {
+	padding-bottom: 8px;
+}
+
+ul, ol, dl {
+	margin-top: 0.2em;
+	padding-top: 0;
+	margin-bottom: 0.8em;
+}
+
+ul {
+	list-style-position: outside;
+	list-style-type: square;
+}
+
+p + ul, p + ol {
+	margin-top: -0.5em;
+}
+
+li ul, li ol {
+	margin-top: 0;
+}
+
+li {
+	line-height: 1.3;
+	margin-bottom: 0.3em;
+}
+
+ol {
+	list-style-position: outside;
+	list-style-type: decimal;
+}
+
+li p {
+	margin-bottom: 0.3em;
+}
+
+/* Boxed note, e.g. <div class="infoblock"><div class="blockcontent"> ... </div></div> */
+div.infoblock {
+	margin-top: 1.2em;
+	margin-bottom: 1.3em;
+}
+
+div.blockcontent {
+	border: 1px solid silver;
+	padding: 0.3em 0.5em;
+}
+
+div.infoblock > div.blockcontent {
+	background: #ffffee;
+}
+
+div.infoblock p {
+	margin-bottom: 0em;
+}
+
+div.infoblock p + p {
+	margin-top: 0.8em;
+}
+
+/* Photo + contact block at the top of the home page. */
+table.imgtable, table.imgtable td {
+	border: none;
+	text-align: left;
+	vertical-align: top;
+}
+
+table.imgtable td {
+	padding: 2px 0.5em 2px 0;
+}
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 2px 0.5em;
+	text-align: center;
+	border: 1px solid gray;
+}
+
+img {
+	border: none;
+}
+
+/* Blog index */
+ul.post-list {
+	list-style: none;
+	padding-left: 0;
+}
+ul.post-list .post-date {
+	color: #808080;
+	margin-right: 0.8em;
+}
+
+@media print {
+	#layout-menu { display: none; }
+}
+
+/* Narrow screens: menu stacks above the content. */
+@media (max-width: 720px) {
+	#tlayout {
+		flex-direction: column;
+		min-height: 0;
+	}
+	#layout-menu {
+		white-space: normal;
+		padding-bottom: 0.5em;
+	}
+	div.menu-item {
+		display: inline-block;
+		padding-left: 0;
+		text-indent: 0;
+		margin-right: 0.6em;
+	}
+	#layout-content {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	table.imgtable td {
+		display: block;
+	}
+}

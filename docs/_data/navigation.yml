@@ -1,0 +1,23 @@
+# Left menu: each category is a bold heading with its links listed underneath.
+- category: Stephen Huang
+  items:
+    - title: Home
+      url: /
+- category: Research
+  items:
+    - title: Experience
+      url: /experience/
+    - title: Projects
+      url: /projects/
+    - title: Publications
+      url: /publications/
+- category: Academics
+  items:
+    - title: Courses
+      url: /courses/
+    - title: Skills & Honors
+      url: /skills/
+- category: Other
+  items:
+    - title: Blog
+      url: /blog/
